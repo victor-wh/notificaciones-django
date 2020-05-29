@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#test
 # -*- coding: utf-8 -*-
 ''' Django notification setup file for pip package '''
 import ast
