@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-#test
 # -*- coding: utf-8 -*-
 ''' Django notification setup file for pip package '''
 import ast
@@ -28,13 +27,11 @@ setup(
     url='http://github.com/django-notifications/django-notifications',
     install_requires=[
         'django>=1.7',
-        'jsonfield>=1.0.3',
         'pytz',
         'swapper'
     ],
     test_requires=[
         'django>=1.7',
-        'jsonfield>=1.0.3',
         'pytz'
     ],
     packages=[
