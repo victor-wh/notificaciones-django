@@ -26,12 +26,12 @@ setup(
     author_email='yang@yangyubo.com',
     url='http://github.com/django-notifications/django-notifications',
     install_requires=[
-        'django>=1.7 ,<=1.10.4',
+        'django>=1.7 ,<=1.11.29',
         'pytz',
         'swapper'
     ],
     test_requires=[
-        'django>=1.7,<=1.10.4',
+        'django>=1.7,<=1.11.29',
         'pytz'
     ],
     packages=[
@@ -50,6 +50,7 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Framework :: Django',
+        'Framework :: Django :: 1.11',
         'Framework :: Django :: 1.10',
         'Framework :: Django :: 1.9',
         'Framework :: Django :: 1.8',
